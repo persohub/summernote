@@ -2,6 +2,14 @@
     "name": "HackerWins/summernote",
     "description": "Super Simple WYSIWYG Editor on Bootstrap(3.0 and 2.x).",
     "type": "library",
+    "repositories": [
+    {
+        "url": "https://github.com/persohub/summernote.git",
+        "type": "git"
+    },
+    "require": {
+        "persohub/summernote": "~0.5.1"
+    },
     "keywords": [
         "wysiwyg"
     ],
