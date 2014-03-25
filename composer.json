@@ -16,7 +16,7 @@
     ],
     "support": {
         "issues": "https://github.com/HackerWins/summernote/issues"
-    }
+    },
     "repositories": [
         {
             "type": "git",
