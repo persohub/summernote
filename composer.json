@@ -17,4 +17,10 @@
     "support": {
         "issues": "https://github.com/HackerWins/summernote/issues"
     }
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/persohub/summernote"
+        }
+    ]
 }
