@@ -19,8 +19,8 @@
     }
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/persohub/summernote"
+            "type": "git",
+            "url": "https://github.com/persohub/summernote.git"
         }
     ]
 }
