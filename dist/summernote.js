@@ -3281,6 +3281,12 @@
             $holder.html($holder.code());
           });
         }
+
+        // callback on init
+        if (options.oninit) {
+            options.oninit.call($holder.next());
+        }
+
       });
 
       // focus on first editable element
@@ -3290,9 +3296,9 @@
       }
 
       // callback on init
-      if (this.length > 0 && options.oninit) {
-        options.oninit();
-      }
+//      if (this.length > 0 && options.oninit) {
+//        options.oninit();
+//      }
 
       return this;
     },
