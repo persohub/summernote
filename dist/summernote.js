@@ -1346,7 +1346,7 @@
      */
     this.currentStyle = function (elTarget) {
       var rng = range.create();
-      return rng.isOnEditable() && style.current(rng, elTarget);
+      return rng && rng.isOnEditable() && style.current(rng, elTarget);
     };
 
     /**
